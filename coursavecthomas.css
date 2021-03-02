@@ -5,11 +5,16 @@ header {
 }
 .pict_header img{
     max-width: 10%;
+    margin: 13px;
 }
-.menu {
-    /* justify-content: flex-end;
-    flex: 20%; */
-
+/* .menu {
+    justify-content: flex-end;
+    flex: 30%;
+display: flex;
+margin-right: 100px;
+} */
+.menu li {
+    display: inline;
 }
 
 body {
@@ -28,8 +33,6 @@ footer {
     align-content: center;
 }
 
-}
-
 p {
     color: darkgreen;
     text-align: unset;
@@ -46,17 +49,12 @@ article {
 
 h2 {
     color: orangered;
-} */
+} 
 
-}
+
 nav ul li a::after {
-    content:   | ; */
+    content:   "|" ;
 }
-
-
-
-
-
 
 .pict_principal {
     width: 100%;
